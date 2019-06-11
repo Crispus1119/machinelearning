@@ -1,0 +1,71 @@
+java NeuralNetworkBuilder
+
+Enter L to load trained network, T to train a new one, Q to quit: t
+
+Resolution of data (5/10/15/20): 20
+Number of hidden layers: 0
+
+Initializing network...
+Training on trainSet_20.dat...
+Testing on testSet_20.dat...
+Accuracy achieved: 0.2%
+
+Save network (Y/N)? y
+File-name: perceptron.nnet
+Saving network...
+Network saved to file: perceptron.nnet
+
+Enter L to load trained network, T to train a new one, Q to quit: l
+
+Network file-name: perceptron.nnet
+
+Loading network from: perceptron.nnet...
+Input layer size: 65 nodes
+Output layer size: 14
+Testing on testSet_20.dat...
+Accuracy achieved: 0.2%
+
+Enter L to load trained network, T to train a new one, Q to quit: t
+
+Resolution of data (5/10/15/20): 5
+Number of hidden layers: 1
+Size of hidden layer 1: 5
+
+Initializing network...
+Training on trainSet_05.dat...
+Testing on testSet_05.dat...
+Accuracy achieved: 77.6%
+
+Save network (Y/N)? n
+
+Enter L to load trained network, T to train a new one, Q to quit: T
+
+Resolution of data (5/10/15/20): 5
+Number of hidden layers: 2
+Size of hidden layer 1: 5
+Size of hidden layer 2: 5
+
+Initializing network...
+Training on trainSet_05.dat...
+Testing on testSet_05.dat...
+Accuracy achieved: 84.8%
+
+Save network (Y/N)? Y
+File-name: mynet.nnet
+Saving network...
+Network saved to file: mynet.nnet
+
+Enter L to load trained network, T to train a new one, Q to quit: L
+
+Network file-name: mynet.nnet
+
+Loading network from: mynet.nnet...
+Input layer size: 65 nodes
+Hidden layer sizes: 5, 5
+Output layer size: 14
+Testing on testSet_05.dat...
+Accuracy achieved: 84.8%
+
+Enter L to load trained network, T to train a new one, Q to quit: q
+
+Goodbye.

@@ -1,0 +1,110 @@
+please input a  a positive multiple of 250 that is <= 1000 to be the training set's size
+1000
+1000
+Please enter a training increment (either 10, 25, or 50):50
+50
+Verbose mode? yes or no
+yes
+Loading Property Information from file.
+Loading Data from database.
+
+Running with 50 in training set
+Given current tree, there are 5470 correct classifications out of 5594(a success rate of 97.7833 percent)
+
+Running with 100 in training set
+Given current tree, there are 5439 correct classifications out of 5544(a success rate of 98.1061 percent)
+
+Running with 150 in training set
+Given current tree, there are 5428 correct classifications out of 5494(a success rate of 98.7987 percent)
+
+Running with 200 in training set
+Given current tree, there are 5305 correct classifications out of 5444(a success rate of 97.4467 percent)
+
+Running with 250 in training set
+Given current tree, there are 5378 correct classifications out of 5394(a success rate of 99.7034 percent)
+
+Running with 300 in training set
+Given current tree, there are 5275 correct classifications out of 5344(a success rate of 98.7088 percent)
+
+Running with 350 in training set
+Given current tree, there are 5202 correct classifications out of 5294(a success rate of 98.2622 percent)
+
+Running with 400 in training set
+Given current tree, there are 5163 correct classifications out of 5244(a success rate of 98.4554 percent)
+
+Running with 450 in training set
+Given current tree, there are 5135 correct classifications out of 5194(a success rate of 98.8641 percent)
+
+Running with 500 in training set
+Given current tree, there are 5066 correct classifications out of 5144(a success rate of 98.4837 percent)
+
+Running with 550 in training set
+Given current tree, there are 5082 correct classifications out of 5094(a success rate of 99.7644 percent)
+
+Running with 600 in training set
+Given current tree, there are 4956 correct classifications out of 5044(a success rate of 98.2554 percent)
+
+Running with 650 in training set
+Given current tree, there are 4951 correct classifications out of 4994(a success rate of 99.1390 percent)
+
+Running with 700 in training set
+Given current tree, there are 4901 correct classifications out of 4944(a success rate of 99.1303 percent)
+
+Running with 750 in training set
+Given current tree, there are 4804 correct classifications out of 4894(a success rate of 98.1610 percent)
+
+Running with 800 in training set
+Given current tree, there are 4758 correct classifications out of 4844(a success rate of 98.2246 percent)
+
+Running with 850 in training set
+Given current tree, there are 4748 correct classifications out of 4794(a success rate of 99.0405 percent)
+
+Running with 900 in training set
+Given current tree, there are 4670 correct classifications out of 4744(a success rate of 98.4401 percent)
+
+Running with 950 in training set
+Given current tree, there are 4613 correct classifications out of 4694(a success rate of 98.2744 percent)
+
+Running with 1000 in training set
+Given current tree, there are 4607 correct classifications out of 4644(a success rate of 99.2033 percent)
+
+Final desion tree is
+
+branch0  Attribute is:#4 p;   posionous
+branch1  Attribute is:#4 a;   eatable
+branch2  Attribute is:#4 l;   eatable
+branch3  Attribute is:#4 n;  Attribute is:#19 n;   eatable
+branch4  Attribute is:#4 n;  Attribute is:#19 k;   eatable
+branch5  Attribute is:#4 n;  Attribute is:#19 r;   posionous
+branch6  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 c;   eatable
+branch7  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 n;   eatable
+branch8  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 w;   posionous
+branch9  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 y;   posionous
+branch10  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 p;   eatable
+branch11  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 g;   eatable
+branch12  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 f;   posionous
+branch13  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 c;   posionous
+branch14  Attribute is:#4 n;  Attribute is:#19 w;  Attribute is:#2 m;   posionous
+
+Statistics is:
+
+Training set size: 50. Success:  97.7833percent.
+Training set size: 100. Success:  98.1061percent.
+Training set size: 150. Success:  98.7987percent.
+Training set size: 200. Success:  97.4467percent.
+Training set size: 250. Success:  99.7034percent.
+Training set size: 300. Success:  98.7088percent.
+Training set size: 350. Success:  98.2622percent.
+Training set size: 400. Success:  98.4554percent.
+Training set size: 450. Success:  98.8641percent.
+Training set size: 500. Success:  98.4837percent.
+Training set size: 550. Success:  99.7644percent.
+Training set size: 600. Success:  98.2554percent.
+Training set size: 650. Success:  99.1390percent.
+Training set size: 700. Success:  99.1303percent.
+Training set size: 750. Success:  98.1610percent.
+Training set size: 800. Success:  98.2246percent.
+Training set size: 850. Success:  99.0405percent.
+Training set size: 900. Success:  98.4401percent.
+Training set size: 950. Success:  98.2744percent.
+Training set size: 1000. Success:  99.2033percent.

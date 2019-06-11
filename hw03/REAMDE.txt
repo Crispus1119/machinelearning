@@ -1,0 +1,11 @@
+This folder contains:
+
+[1] hw03.pdf: a description of the assignment and its requirements.
+
+[2] sampleRun.txt: a print-out obtained by running the program.
+
+[3] testSet_data: a folder containing some data-files;  each is a text-file containing numeric data (prefaced by a header with comments).  Each line of numeric data is an input vector of values corresponding to an image of a single character of text (where the number of values grows as we increase the resolution of the data, a value indicated by the numeric suffix to the data-file's name), followed by an output vector of length 14, indicating the character to which the data-item corresponds.  The comments in the file indicate how to interpret the output vector.  When testing a neural net, these are the data-sets that can be used; the program will need to always ensure it uses the testing set for which it was designed (i.e., the one for which the length of the input vector matches the number of nodes in the network input layer).
+
+[4] trainSet_data: a folder containing some data-files; each is in the same format as described for item [3].  When building neural networks, these are the data-sets that can be used, depending upon the resolution chosen by the user.
+
+NOTE: in case you wish to see the actual images that were used to generate the numeric data, these have been posted as an optional download on D2L.  These are not necessary to complete the assignment, but some of them are very pretty.

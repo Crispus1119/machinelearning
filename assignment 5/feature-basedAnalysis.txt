@@ -1,0 +1,59 @@
+
+1.Final policy of feature-based Q learning.
+
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R D L L L L L L L L L L L L L L L L L M
+M R R R R R R R R R R R R R R R R R G L L L L L L L L L L L L L L L L L M
+
+
+2.  You can check graph called featureBasedRewards in archive.
+
+3.First of all I think final policy is right, I think in feature-based Q-learning we only learn the weights(w1,w2) for (f1,f2), and in each state the value of f1 and f2 is constant in the one enviroment. So if we learn the value of weights(w1,w2) we can calculate every states' actions Q-value using weights.You can clearly see that every state is in right direction to gate.It is not like Q-table version Q-learning that have problem that can not update all states.
+  Secondly, when you view the graph called featureBasedRewards which show the average rewards, you can find it coverage so fast.In the first round, it is already fluctuated around 56. I think the reason is this environment is simple and  only have to features ,so that the algorithm only need learn two weights value. Because of the probability to slip to one side or the other, the average rewards fluctuate around 56.
